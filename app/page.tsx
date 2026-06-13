@@ -113,25 +113,63 @@ export default function Home() {
           <div id="quote" className="bg-zinc-900 rounded-xl p-8">
             <h2 className="text-3xl font-bold mb-6">GET A FREE QUOTE</h2>
 
-            <form
+          <form
   className="space-y-4"
-  action="mailto:skautotiresolution@gmail.com"
+  action="https://api.web3forms.com/submit"
   method="POST"
-  encType="text/plain"
 >
-  <input name="name" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Your Name" />
-  <input name="phone" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Phone Number" />
-  <input name="email" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Email Address" />
-  <input name="service" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Service Needed" />
-  <textarea name="message" className="w-full p-4 rounded bg-black border border-zinc-700 h-32" placeholder="Message" />
+  <input
+    type="hidden"
+    name="access_key"
+    value="f9bc8939-5647-40d4-8e61-969b391c6aca"
+  />
 
-  <button className="w-full bg-red-600 hover:bg-red-700 p-4 rounded font-bold">
+  <input
+    name="name"
+    required
+    className="w-full p-4 rounded bg-black border border-zinc-700"
+    placeholder="Your Name"
+  />
+
+  <input
+    name="phone"
+    required
+    className="w-full p-4 rounded bg-black border border-zinc-700"
+    placeholder="Phone Number"
+  />
+
+  <input
+    type="email"
+    name="email"
+    required
+    className="w-full p-4 rounded bg-black border border-zinc-700"
+    placeholder="Email Address"
+  />
+
+  <input
+    name="service"
+    className="w-full p-4 rounded bg-black border border-zinc-700"
+    placeholder="Service Needed"
+  />
+
+  <textarea
+    name="message"
+    required
+    className="w-full p-4 rounded bg-black border border-zinc-700 h-32"
+    placeholder="Message"
+  ></textarea>
+
+  <button
+    type="submit"
+    className="w-full bg-red-600 hover:bg-red-700 p-4 rounded font-bold"
+  >
     SEND REQUEST
   </button>
 
   <a
     href="https://wa.me/13476561771"
     target="_blank"
+    rel="noopener noreferrer"
     className="block text-center w-full bg-green-600 hover:bg-green-700 p-4 rounded font-bold"
   >
     SEND BY WHATSAPP
