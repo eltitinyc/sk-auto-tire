@@ -113,17 +113,30 @@ export default function Home() {
           <div id="quote" className="bg-zinc-900 rounded-xl p-8">
             <h2 className="text-3xl font-bold mb-6">GET A FREE QUOTE</h2>
 
-            <form className="space-y-4">
-              <input className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Your Name" />
-              <input className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Phone Number" />
-              <input className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Email Address" />
-              <input className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Service Needed" />
-              <textarea className="w-full p-4 rounded bg-black border border-zinc-700 h-32" placeholder="Message" />
+            <form
+  className="space-y-4"
+  action="mailto:skautotiresolution@gmail.com"
+  method="POST"
+  encType="text/plain"
+>
+  <input name="name" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Your Name" />
+  <input name="phone" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Phone Number" />
+  <input name="email" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Email Address" />
+  <input name="service" className="w-full p-4 rounded bg-black border border-zinc-700" placeholder="Service Needed" />
+  <textarea name="message" className="w-full p-4 rounded bg-black border border-zinc-700 h-32" placeholder="Message" />
 
-              <button className="w-full bg-red-600 hover:bg-red-700 p-4 rounded font-bold">
-                SEND REQUEST
-              </button>
-            </form>
+  <button className="w-full bg-red-600 hover:bg-red-700 p-4 rounded font-bold">
+    SEND REQUEST
+  </button>
+
+  <a
+    href="https://wa.me/13476561771"
+    target="_blank"
+    className="block text-center w-full bg-green-600 hover:bg-green-700 p-4 rounded font-bold"
+  >
+    SEND BY WHATSAPP
+  </a>
+</form>
           </div>
         </div>
       </section>
@@ -136,7 +149,7 @@ export default function Home() {
         </p>
         <p className="mt-2">1074 Bay St, Staten Island, NY 10305</p>
         <p className="mt-2">
-          <a href="tel:3476563903">(347) 656-3903</a>
+          <a href="tel:3476561771">(347) 656-3903</a>
         </p>
         <p className="mt-2">
           © 2026 SK Auto & Tire Solution. All Rights Reserved.
