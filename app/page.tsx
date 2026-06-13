@@ -99,7 +99,7 @@ export default function Home() {
             <p className="text-xl text-zinc-300 mt-3">
               📞{" "}
               <a href="tel:3476563903" className="text-blue-400 font-bold">
-                (347) 656-3903
+                (347) 656-1771
               </a>
             </p>
 
