@@ -13,8 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SK Auto & Tire Solution",
-  description: "Premium Tire & Auto Services",
+  title: "SK Auto & Tire Solution | Tire Shop in Staten Island, NY",
+  description:
+    "Professional tire shop in Staten Island specializing in wheel alignment, brake service, suspension repair, oil changes, balancing, vehicle inspections, and new & used tires.",
+  keywords: [
+    "Tire Shop Staten Island",
+    "Wheel Alignment Staten Island",
+    "Brake Service Staten Island",
+    "Oil Change Staten Island",
+    "Suspension Repair Staten Island",
+    "Vehicle Inspection Staten Island",
+    "New Tires Staten Island",
+    "Used Tires Staten Island",
+    "Auto Repair Staten Island",
+    "SK Auto & Tire Solution",
+  ],
 };
 
 export default function RootLayout({
