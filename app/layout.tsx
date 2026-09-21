@@ -40,7 +40,8 @@ export default function RootLayout({
       <head>
         <meta
           name="google-site-verification"
-          content="EqSBHJ6i8Ak6sUqtOuCEq21645z4ngeYYIvjzpNqk9w"
+          content="Vl_m5pxRuFjcg79_Z7gNlCiDaV2F9urhiAzK5Nil-j0" />
+          
         />
       </head>
 
