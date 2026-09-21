@@ -42,7 +42,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="Vl_m5pxRuFjcg79_Z7gNlCiDaV2F9urhiAzK5Nil-j0" />
           
-        />
+       
       </head>
 
       <body
